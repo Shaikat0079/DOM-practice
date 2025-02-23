@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tour OF DOM</title>
     <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
-     <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Welcome To MY DOM</h1>
+      <h1>Welcome To MY DOM</h1>
     </header>
     <main>
+      <section>
         <h1>My Awesome DOM Practice</h1>
         <ul>
-            <li>HONDA Civic Type R</li>
-            <li>Toyota GR86</li>
-            <li>TREK Bicycle</li>
+          <li>HONDA Civic Type R</li>
+          <li>Toyota GR86</li>
+          <li>TREK Bicycle</li>
         </ul>
-        <section>
-            <h1 id="fruits-title">Fruits I like</h1>
-            <ul>
-                <li>Apple</li>
-                <li>Banana</li>
-                <li>Carrot</li>
-            </ul>
-        </section>
-        <section>
-            <h1>Places I like to visit</h1>
-            <ul>
-                <li class="important-places">Shundar Ban</li>
-                <li class="important-places">Bandar Ban</li>
-                <li class="important-places">Cox's Bazar</li>
-                <li>Shalbon</li>
-            </ul>
-        </section>
+      </section>
+      <section class="fruits-container">
+        <h1 id="fruits-title">Fruits I like</h1>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Carrot</li>
+        </ul>
+      </section>
+      <section id="places-container">
+        <h1>Places I like to visit</h1>
+        <ul id="places-list">
+          <li class="important-places">Shundar Ban</li>
+          <li class="important-places">Bandar Ban</li>
+          <li class="important-places">Cox's Bazar</li>
+          <li>Shalbon</li>
+        </ul>
+      </section>
     </main>
     <script src="./js/dom.js"></script>
-</body>
+    <script src="./js/styleInjs.js"></script>
+  </body>
 </html>

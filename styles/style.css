@@ -10,3 +10,14 @@ li{
 .important-places{
     color: blueviolet;
 }
+
+.red-bg{
+    /* background-color: red !important; */
+    text-align: center;
+    /* list-style-type: style type none; */
+    /* list-style: lower-alpha; */
+}
+
+.list-none{
+    list-style: none;
+}
